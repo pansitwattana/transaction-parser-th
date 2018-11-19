@@ -13,3 +13,4 @@
 "sms","KBank","22/11/18 12:34 A/C X999999X credited 100.00 Baht to e-Wallet X-7777 Outstanding Balance 1234.56 Baht.","credit","KBANK","2018-11-22","12:34","","A/C X999999X","100.00","e-Wallet X-7777","","","1234.56"
 "sms","KBank","22/11/18 12:34 A/C X999999X received 170.00 Baht from A/C X777777X","receive","KBANK","2018-11-22","12:34","","A/C X777777X","170.00","A/C X999999X","","",""
 "sms","KBank","22/11/18 12:34 A/C X999999X received 512.00 Baht from A/C X777777X Outstanding Balance 1234.56 Baht.","receive","KBANK","2018-11-22","12:34","","A/C X777777X","512.00","A/C X999999X","","","1234.56"
+"sms","ME","มีเงิน 52.00บ.เข้าบ/ชxx3371เหลือ 4,065.00 บ.19/11/18@13:11","receive","ME","2018-11-18","13:11","","xx3371","52.00","","","","4065.00"
