@@ -54,6 +54,13 @@ const placeholderMatchers: { [k: string]: PlaceholderMatcher } = {
       return `20${c}-${b}-${a}`
     }
   },
+  me_date: {
+    regexp: `\\d\\d\\/\\d\\d\\/\\d\\d`,
+    process: matchedText => {
+      const [a, b, c] = matchedText.split('/')
+      return `20${c}-${b}-${a}`
+    }
+  },
   time: {
     regexp: `\\d\\d?:\\d\\d`,
     process: matchedText => (matchedText.length < 5 ? '0' : '') + matchedText
