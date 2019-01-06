@@ -86,9 +86,7 @@ const smsMatcherProviders: { [provider: string]: SMSMatcher[] } = {
   ME: [
     match(
       'ME',
-      // ME","มีเงิน 52.00บ.เข้าบ/ชxx3371เหลือ 4,065.00 บ.19/11/18@13:11
       'มีเงิน {{amount:number}}บ.เข้าบ/ชxx{{to}}เหลือ {{balance:number}} บ.{{date:me_date}}@{{time:time}}',
-      // 'มีเงิน {{amount:number}}บ.เข้าบ/ช{{to}}เหลือ {{balance:number}} บ.19/11/18@13:11',
       { type: 'receive' }
     )
   ]
